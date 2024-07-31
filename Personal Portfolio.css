@@ -1,0 +1,83 @@
+img{
+    border-radius:50%
+}
+
+body{
+    background-image: url(Pictures/code.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+.bg{
+    background-image: url(Pictures/bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    height: 800px;
+    background-blend-mode: color-burn;
+}
+
+#logo{
+    float: right;
+    alt: My logo;
+    width:700px;
+    height:400px;
+}
+
+#bigFont{
+    font-size: 40px;
+}
+
+.titles{
+    color: rgb(38, 114, 89);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#turnThisWhite{
+    color: white;
+    font-size: 20px;
+}
+
+#thisIsGreen{
+    color: rgb(40, 141, 107);
+    font-weight: bold;
+}
+
+.accordion{
+    --bs-accordion-btn-color: #ffffff;
+    --bs-accordion-btn-bg: #126345;
+    --bs-accordion-active-bg: #1ed190;
+
+}
+
+#indent{
+    text-indent: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+hr.new{
+    border: 10px solid rgb(24, 93, 177);
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.692);
+    color : white;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(200px);
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
